@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+  background: ;
+    background-height: 100%;
+  color: black;
+  font-family: Indie Flower;
+    font-size: 200%;
+}
+
+svg {
+  background:url('http://i.dailymail.co.uk/i/pix/2016/09/21/17/034E14A5000003E8-0-image-a-3_1474474989004.jpg');
+  display: block;
+  margin: auto;
+}
