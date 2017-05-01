@@ -9,7 +9,7 @@ body {
 }
 
 svg {
-  background:url('http://news.mit.edu/sites/mit.edu.newsoffice/files/images/2015/MIT-Deep-Ocean-Waves-01_0.jpg');
+  background:url("http://news.mit.edu/sites/mit.edu.newsoffice/files/images/2015/MIT-Deep-Ocean-Waves-01_0.jpg")
   display: block;
   margin: auto;
 }
