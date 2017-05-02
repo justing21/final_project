@@ -1,6 +1,6 @@
 var namespace = "http://www.w3.org/2000/svg"
 
-// Write your code here!
+// Write your code here //
 
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {
