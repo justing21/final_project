@@ -1,6 +1,7 @@
 var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here //
+var  diver = makeImage("https://img.clipartfest.com/540d57560853adf2cc8ef8e894bfcfcb_ec6808fe8e5bcf20055329865233fd-scuba-divers-clip-art_600-208.png", 1, 150, 100, 35)
 
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {
