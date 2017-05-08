@@ -1,9 +1,21 @@
 var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here //
-var  diver = makeImage("https://img.clipartfest.com/540d57560853adf2cc8ef8e894bfcfcb_ec6808fe8e5bcf20055329865233fd-scuba-divers-clip-art_600-208.png", 1, 150, 100, 35)
+var  diver = makeImage("https://img.clipartfest.com/540d57560853adf2cc8ef8e894bfcfcb_ec6808fe8e5bcf20055329865233fd-scuba-divers-clip-art_600-208.png", -10, 60, 100, 20)
 
-// DO NOT EDIT CODE BELOW THIS LINE!
+var score = 0
+var scoreText = makeText(score, 0, 15, 18, "sans-serif", "black")
+
+var creature1 = makeImage("https://img.clipartfest.com/b818d422db31d8a39be710fe5c0e9849_cute-white-tiger-clipart-shark-clipart-png_640-320.png",80,65,100,80)
+var creature2 = makeImage("http://data.whicdn.com/images/188842215/large.gif",120,0,50,100)
+
+
+
+
+
+
+
+// DO NOT EDIT CODE BELOW THIS LINE
 function getX(shape) {
   if (!shape) {
     throw "Uh oh, you tried to get the x coordinate of a shape that doesn't exist!"
