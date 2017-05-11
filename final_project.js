@@ -1,14 +1,17 @@
 var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here //
-var  diver = makeImage("https://img.clipartfest.com/540d57560853adf2cc8ef8e894bfcfcb_ec6808fe8e5bcf20055329865233fd-scuba-divers-clip-art_600-208.png",0,50,30,25)
+var  diver = makeImage("https://img.clipartfest.com/540d57560853adf2cc8ef8e894bfcfcb_ec6808fe8e5bcf20055329865233fd-scuba-divers-clip-art_600-208.png",0,50,50,55)
 
 var score = 0
-var scoreText = makeText(score, 0, 15, 18, "sans-serif", "black")
+var scoreText = makeText(score, 0, 15, 15, "sans-serif", "black")
 
-var shark = makeImage("http://www.iconarchive.com/download/i86442/martin-berube/flat-animal/shark.ico",30,65,100,42)
-var squidward = makeImage("http://data.whicdn.com/images/188842215/large.gif",100,10,40,35)
-
+var shark =
+makeImage("http://www.iconarchive.com/download/i86442/martin-berube/flat-animal/shark.ico",30,85,100,42)
+var squidward =
+makeImage("http://data.whicdn.com/images/188842215/large.gif",100,10,40,35)
+var mrkrabs =
+makeImage("https://atdpsites.berkeley.edu/ailfeld/krabs.png",180,40,40,35)
 
 
 
