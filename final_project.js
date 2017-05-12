@@ -7,11 +7,11 @@ var score = 0
 var scoreText = makeText(score, 0, 15, 15, "sans-serif", "black")
 
 var shark =
-makeImage("http://www.iconarchive.com/download/i86442/martin-berube/flat-animal/shark.ico",30,85,100,42)
+makeImage("http://www.iconarchive.com/download/i86442/martin-berube/flat-animal/shark.ico",50,100,110,60)
 var squidward =
-makeImage("http://data.whicdn.com/images/188842215/large.gif",100,10,40,35)
+makeImage("http://data.whicdn.com/images/188842215/large.gif",100,5,40,80)
 var mrkrabs =
-makeImage("https://atdpsites.berkeley.edu/ailfeld/krabs.png",180,40,40,35)
+makeImage("https://atdpsites.berkeley.edu/ailfeld/krabs.png",180,50,70,70)
 
 
 
