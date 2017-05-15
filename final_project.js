@@ -3,6 +3,7 @@ var namespace = "http://www.w3.org/2000/svg"
 // Write your code here //
 var  diver = makeImage("https://img.clipartfest.com/540d57560853adf2cc8ef8e894bfcfcb_ec6808fe8e5bcf20055329865233fd-scuba-divers-clip-art_600-208.png",0,50,50,55)
 
+addEventListener('keydown',movediver)
 var score = 0
 
 
@@ -14,62 +15,22 @@ var mrkrabs =
 makeImage("https://atdpsites.berkeley.edu/ailfeld/krabs.png",140,80,150,70)
 var spongebob =
 makeImage("https://derpicdn.net/img/2017/1/10/1336584/full.png",200,20,100,50)
-function animation(){
 
-  move(shark,-1,0)
-  move(squidward,-1,0)
-  move(mrkrabs,-1,0)
-  move(spongebob,-1,0)
-
-  requestAnimationFrame(animation)
-
-var y1 = getY(shark)
- var y2 = getY(squidward)
- var y3 = getY(mrkrabs)
- var y4 = getY(spongebob)
-
-
- if(y1 < 0){
-   setY(shark,300)
-   }
-
-  if(y2 < 0){
-    setY(squidward,300)
-  }
-
-  if(y3 < 0){
-    setY(mrkrabs,300)
-  }
-
-  if(y4 < 0){
-    setY(spongebob,300)
-  }
-
-var x = getX(diver)
-
-  if( x < 135 ){
-    move(diver,0,1)
-  }
-
-  if(x < -50){
-    setX(diver,-40)
-  }
-
-}
-function soar(event) {
-
-
-  if(event.key == "keydown"){
-move(goose,0,-20)
-
-   score = score+1
-  scoreText.innerHTML =score
-  }
-
-
-}
-
-
+  function movediver(event) {
+     var KX1 = getX(diver)
+    var KY1 = getY(diver)
+     var KX2 = getX(diver)
+    var KY2 = getY(diver)
+    if (event.key == "ArrowUp" && KY1>10){
+      move(diver,0,-10)
+    }else if (event.key == "ArrowDown" && KY2<130){
+      move(diver,0,10)
+    }else if (event.key == "ArrowLeft" && KX1>0){
+      move(diver,-10,0)
+    }else if(event.key == "ArrowRight" && KX2<270){
+      move(diver,10,0)
+    }
+  }  
 // DO NOT EDIT CODE BELOW THIS LINE
  function getX(shape) {
   if (!shape) {
